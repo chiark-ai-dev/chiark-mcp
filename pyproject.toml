@@ -1,0 +1,29 @@
+[project]
+name = "chiark-mcp"
+version = "1.0.0"
+description = "MCP server for AI agent discovery and quality scoring via chiark.ai"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{ name = "Chiark", email = "hello@chiark.ai" }]
+keywords = ["mcp", "ai-agents", "agent-discovery", "quality-index"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries",
+]
+dependencies = [
+    "mcp>=1.0",
+    "httpx>=0.25",
+    "anyio>=4.0",
+]
+
+[project.scripts]
+chiark-mcp = "chiark_mcp.__main__:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/chiark_mcp"]

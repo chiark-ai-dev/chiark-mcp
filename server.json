@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.chiark-ai/chiark-mcp",
+  "title": "Chiark — Agent Quality Index",
+  "description": "Find, score, and monitor 2,000+ AI agents across A2A and MCP ecosystems. Quality-aware routing with constraint filtering.",
+  "repository": {
+    "url": "https://github.com/chiark-ai/chiark-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://chiark.ai/mcp"
+    }
+  ]
+}
