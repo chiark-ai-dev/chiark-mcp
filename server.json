@@ -4,7 +4,7 @@
   "title": "Chiark — Agent Quality Index",
   "description": "Find, score, and monitor 2,000+ AI agents across A2A and MCP ecosystems. Quality-aware routing with constraint filtering.",
   "repository": {
-    "url": "https://github.com/chiark-ai/chiark-mcp",
+    "url": "https://github.com/chiark-ai-dev/chiark-mcp",
     "source": "github"
   },
   "version": "1.0.0",
